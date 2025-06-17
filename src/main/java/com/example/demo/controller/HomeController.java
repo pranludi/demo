@@ -32,6 +32,11 @@ public class HomeController {
     }
 
 
+    // developer A : work this file
+    // add this commend
+
+
+
     @GetMapping("/form2")
     public String memberAddForm2() {
         // test
