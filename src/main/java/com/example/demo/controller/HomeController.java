@@ -31,6 +31,26 @@ public class HomeController {
         return "memberAddForm";
     }
 
+
+    @GetMapping("/form2")
+    public String memberAddForm2() {
+        // test
+        // test
+        // test
+        // ~~~~~~
+        return "memberAddForm";
+    }
+
+
+    @GetMapping("/form3")
+    public String memberAddForm3() {
+        // test
+        // example
+        return "memberAddForm";
+    }
+
+
+
     @PostMapping("/form")
     public String memberAddForm(MemberAddForm memberAddForm) {
         Member member = new Member();
