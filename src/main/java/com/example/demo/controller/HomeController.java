@@ -60,6 +60,13 @@ public class HomeController {
         return "redirect:/list";
     }
 
+    // here developer B
+    // work
+    // .....
+    // ....~~~~~~~~
+
+
+
     @GetMapping("/list")
     public String list(Model model) {
         List<Member> list = memberService.findMembers();
