@@ -12,6 +12,9 @@ import java.util.List;
 @Controller
 public class HomeController {
 
+
+    // this sample
+    // work controller ....skdjfksjdfkjsdlfkjsldfjs
     private final MemberService memberService;
 
     public HomeController(MemberService memberService) {
